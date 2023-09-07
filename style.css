@@ -1,0 +1,355 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.712),rgba(172, 170, 87, 0.7)), url(Pic1.jpg);
+    background-size: cover;
+    background-position: center;
+}  
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+span{
+    color: rgb(204, 175, 8);
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+nav ul li a:hover{
+    color: gold;
+    transition: 0.4s;
+}
+.btn{
+    background-color: rgba(214, 187, 12, 0.979);
+    color: white;
+    text-decoration:none ;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+.btn:hover{
+    background: black;
+    transition: 0.4s;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: white;
+    letter-spacing: 2px;
+}
+.newsletter{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid gold;
+    outline: none;
+    border-radius: 30px;
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: gold;
+    color: white;
+    top: 6px;
+    right:6px 
+}
+span{
+    color: gold;
+}
+.body{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.body img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+     background-color:  rgba(214, 187, 12, 0.979);
+     color: white;
+     text-decoration: none;
+     border: 2px solid transparent;
+     font-weight: bold;
+     padding: 13px 30px;
+     border-radius: 30px;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid;
+    background: black;
+    transition: 0.4s;
+    cursor: pointer; 
+}
+.services{
+    background-color: black;
+    width: 100%;
+    padding: 30px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: justify;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius:20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.info p{
+    color: #fcfc;
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: rgba(214, 187, 12, 0.979);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid rgba(214, 187, 12, 0.979);
+    cursor: pointer;
+}
+.contactme{
+    width: 100%;
+    height: 290%;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contactme p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    padding: 50px;
+}
+.contactme button{
+    background-color: rgba(214, 187, 12, 0.979);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.contactme button:hover{
+    background-color: transparent;
+    border: 2px solid rgba(214, 187, 12, 0.979);
+    cursor: pointer;
+}
+.contactme img{
+    width: 20%;
+    height: 20%;
+    align-items: justify;}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #191919;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+footer p:nth-child(1){
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+footer p:nth-child(3){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+footer img{
+    width: 0 auto;
+    height: 35%;
+}
+.center{
+   position:absolute; 
+   top:45%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.center .stars{
+    height: 30px;
+    width: 500px;
+    text-align: center;
+}
+.stars input{
+    display: none;
+}
+.stars label{
+    float: right;
+    font-size:100px ;
+    color: lightgray;
+    margin: 0 5px;
+    text-shadow: 1px 1px #bbb;
+}
+.stars label:before{
+    content: '★';
+}
+.stars input:checked ~ label{
+    color: gold;
+    text-shadow: 1px 1px #c60;
+}
+.stars :not(:checked) > label:hover,
+.stars :not(:checked) > label:hover ~ label{
+    color: gold;
+}
+.stars input:checked > label:hover
+.stars input:checked > label:hover ~ label{
+  color: gold;
+  text-shadow: 1px 1px goldenrod;
+}
+.stars .result:before{
+    position: absolute;
+    content: '';
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -30px;
+    font-size: 30px;
+    font-weight: 500;
+    color: gold;
+    font-family: 'poppins',sans-serif;
+    display: none;
+}
+.stars input:checked ~ .result:before{
+    display: block;
+}
+.stars #five:checked ~ .result:before{
+    content: "I love It 😍";
+}
+.stars #four:checked ~ .result:before{
+    content: "I like It😎";
+}
+.stars #three:checked ~ .result:before{
+    content: "It's good😄";
+}
+.stars #two:checked ~ .result:before{
+    content: "I don't like It😕";
+}.stars #one:checked ~ .result:before{
+    content: "I hate It😠";
+}
+.rateus{
+    color: white;
+    text-align: center;
+}
